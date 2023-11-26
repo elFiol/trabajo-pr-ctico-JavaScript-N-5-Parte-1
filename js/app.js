@@ -5,7 +5,6 @@ function numAleatorio() {
   numeroAleatorio = Math.floor(Math.random() * 50) + 1;
   botonComenzar.className = "btn btn-danger disabled";
   formUsu.className = "my-3";
-  console.log(numeroAleatorio);
 }
 function numeroUsu(e) {
   e.preventDefault();
